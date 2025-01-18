@@ -1,2 +1,4 @@
-# Amazon-Price-Tracker
-Implementing a Price Tracker Using Python
+# Bytes of Go
+My Journey Learning the Go Programming Language and Building Projects
+
+Becoming A Gopher
