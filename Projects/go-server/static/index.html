@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Go Server</title>
+</head>
+<body>
+    # Hello, Go Server!
+    <p>This is a simple HTML page served by a Go server.</p>
+    <p>Feel free to modify this page as needed.</p>
+    <p>Enjoy coding with Go!</p>
+    <p>Current time: <span id="time"></span></p>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toLocaleTimeString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime(); // Initial call to set time immediately
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;     }    
+    </style>     
+</body>
+</html>
